@@ -14,7 +14,8 @@ int main()
 
     for(i=0; i<25; i++)
     {
-        marks_count[total_marks[i]]++;
+        marks_count[total_marks[i]]++;      //ekhane basically array er maan joto hobe toto index e count korbe ba korte thakbe.
+                                            //check array3 code to understand the whole concept
     }
 
     for(i=50; i<=100; i++)
